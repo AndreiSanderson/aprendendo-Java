@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		/*
+		**COMPARAÇÃO INTEIROS/FLOATS**
+		
+		int n1, n2, r;
+		n1 = 14;
+		n2 = 8;
+		r = (n1>n2)?n1+n2:n1-n2;
+		System.out.println(r);*/
+		
+		/*
+		**COMPARAÇÃO STRING**
+		
+		String nome1 = "arthur";
+		String nome2 = "arthur";
+		String nome3 = new String("arthur");
+		String res1, res2;
+		res1 = (nome1 == nome3) ? "igual" : "diferente"; // == verifica estruturas. Estruturas diferentes, logo não são iguais.
+		res2 = (nome1.equals(nome3)) ? "igual" : "diferente"; // ".equals(), verifica se oque está dentro da variavel é igual, logo será. Sempre usar para objetos."
+		
+		System.out.println(res1);
+		System.out.println(res2);
+		*/
+		
+		/*
+		**OPERADORES RELACIONAIS e(&&), igual(==), ou(||), exclusivo (^)**
+		
+		int x, y, z;
+		x = 4;
+		y = 7;
+		z = 12;
+		boolean r, r1, r2, r3, r4, r5;
+		r = (x < y && y < z) ? true:false;
+		r1 = (x < y && y == z) ? true:false;
+		r2 = (x < y || y == z) ? true:false;
+		r3 = (x < y ^ y == z) ? true:false;
+		r4 = (x < y || y < z) ? true:false;
+		
+		System.out.println(r);
+		System.out.println(r1);
+		System.out.println(r2);
+		System.out.println(r3);
+		System.out.println(r4);
+		*/
+		
+		/* 
+		**Verificador idade**
+		
+		System.out.println("informe sua data de nascimento");
+		Scanner leitor = new Scanner(System.in);
+		int ano = leitor.nextInt();
+		int idade = 2024 - ano;
+		
+		String sit = (idade >= 18) ? "MAIOR" : "MENOR";
+		String voto = ((16 <= idade && idade < 18) || (idade>70)) ? "opcional" : "não é opcional";
+		
+		System.out.println("Sua idade é: " + idade);
+		System.out.println("Você é de " + sit);
+		System.out.println("Seu voto é "+ voto);
+		*/
+		
+	}
+}
