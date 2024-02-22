@@ -1,0 +1,52 @@
+
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner leitor = new Scanner(System.in);
+	   /* 
+	   ** Consição composta Encadeada **
+	   System.out.println("Informe sua data de nascimento: ");
+	   int nasc = leitor.nextInt();
+	   int i = 2024 - nasc;
+	   System.out.println("Sua idade é "+i);
+	   if (i < 16){
+	       System.out.println("Não vota");
+	   } else if(i >= 16 && i < 18 || i > 70){
+	            System.out.println("Seu voto é opcional");
+	       } 
+	       else{
+	            System.out.println("Voto obrigatório");    
+	       }
+	   }
+	   */
+	   
+	   /*
+	   ** Estrutura Switch ** 
+	   System.out.println("Informe a quantidade de pernas do bixo: ");
+	   int pernas = leitor.nextInt();
+	   String tipo;
+	   switch (pernas){
+	       case 1:
+	           tipo = "muleta";
+	           break;
+	       case 2:
+	           tipo = "Bípede";
+	           break;
+	       case 4:
+	           tipo = "Quadrupede";
+	           break;
+	       case 6:
+	           tipo = "Aranha";
+	           break;
+	       default:
+	           tipo = "desconhecido";
+	           break;
+	   }
+	   System.out.println(tipo);
+	   */
+	   
+    }
+}
