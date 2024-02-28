@@ -1,0 +1,30 @@
+
+ import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    /* ** Condição de repetição While **
+		int c = 0;
+		int i = 1;
+		while (c<50){
+		    System.out.println(i+"º pulo");
+		    c++;
+		    i++;
+		}   */   
+
+
+    /* ** Exemplo de continue**
+		int c = 0;
+		int i = 0;
+		while (c<5){
+		    c++;
+		    i++;
+		    if (i == 1 || i == 2){
+		        continue;
+		    }
+		    System.out.println(i+"º pulo");
+		}  
+	*/
+	
+	}
+}
