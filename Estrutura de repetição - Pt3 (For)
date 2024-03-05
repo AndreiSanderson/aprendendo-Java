@@ -1,0 +1,28 @@
+ 
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner leitor = new Scanner(System.in);
+	
+	/* 
+	**Estrutura de repetição "for"**
+	System.out.println("informe o número de repetições desejadas:");
+	float rep = leitor.nextInt();
+	
+	for(int cont = 1; cont <= rep; cont++){
+	    System.out.println("repetição "+cont);
+	    }*/
+	
+	    
+	    /*
+	    **Estrutura de repetição for "Alinhada"**
+	    for(int cc=0; cc<=5; cc++){
+	        for(int dd=0; dd<=6; dd+=2){
+	            System.out.printf("valor de cc = %d\nvalor de dd = %d\n", cc, dd);
+	        }
+	    }*/
+	    
+	}
+}
