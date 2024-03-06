@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in);
+		int n[] = new int [4];
+		// pode ser escrito também desta forma:
+		// int n[] = {3,5,8,2};
+		System.out.println("informe o vetor 1");
+		n[0] = leitor.nextInt();
+		System.out.println("informe o vetor 2");
+		n[1] = leitor.nextInt();
+		System.out.println("informe o vetor 3");
+		n[2] = leitor.nextInt();
+		System.out.println("informe o vetor 4");
+		n[3] = leitor.nextInt();
+		
+		System.out.println("Total de casas no vetor "+ n.length);
+		
+		for(int c = 0; c < n.length; c++){
+		    System.out.println("Na posição "+ c +" temos o valor " + n[c]);
+		}
+		
+
+		
+	}
+}
+
+
+
