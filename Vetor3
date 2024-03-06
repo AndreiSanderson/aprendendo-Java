@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+import java.util.Arrays;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		double num[] = {3.5, 5.7, 1, 8.2, -4.6};
+		
+	    double pos = Arrays.binarySearch(num, 8.2); //realiza uma busca no vetor para localizar o valor informado.
+		System.out.println("o valor 3.5 se encontra na posição: " + pos);
+		
+		Arrays.sort(num); //torna o valor em ordem crescente(sort).
+		
+		
+		for (double valor: num){  //escrever valores dos vetores.
+		    System.out.print(valor+ "; ");
+		}
+	}
+}
