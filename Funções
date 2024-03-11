@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Funcao
+{
+    /*   **Função com void**
+    static void soma(int a, int b){
+        int s = a + b;
+        System.out.println("o valor da soma é "+s);
+    }
+    */
+    
+    /*  **Função com int**
+    static int soma (int a, int b){
+        int s = a + b;
+        return s;
+    }
+    */
+    
+	public static void main(String[] args){
+	    System.out.println("começa o jogo");
+        int sm = soma(5,2);
+        System.out.println("a soma é " +sm);
+	}
+}
+
